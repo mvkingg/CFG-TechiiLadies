@@ -1,0 +1,307 @@
+
+
+  h1 {
+    color: rgb(218, 77, 101);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+ img{
+    float:right;
+ }
+h2 {
+    color: black;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+}
+h3 {
+   color: white; 
+   text-align: left;
+  padding: 8px;
+  background-color: palevioletred;
+}
+button {
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blueviolet;
+    padding: 8px;
+    margin-top: 3%;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+/* Useful Resources Section */
+.column{
+  width:200px;
+  text-align:center;
+  background-color: transparent;
+  border: 1px black;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  padding-top: 50px;
+  padding-right:15px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+/*TO DO: Make the 3 boxes sit in the centre of an enlarged page*/
+
+.row {
+  display: flex;
+  margin-right:auto;
+  width: 50%;
+}
+
+p {
+  padding-left: 10px;
+}
+
+/*Testimonials*/
+table, th, td{
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Katrina Has added the below as extra css for Techii Library Page*/
+    
+input{margin-top: -15px;}
+
+a {color: black;}
+li {list-style: none;
+   }
+video {margin-inline-start: 19px;
+        margin-inline-end: 19px;
+        margin-right: 22px;
+     }
+h4 {display: inline;
+              margin-left: 190px;
+              margin-right:190px;
+              text-align: center;
+    }
+
+/* MK Code */
+/*WebPage Styling*/
+.section__title {
+  color: white; 
+ text-align: left;
+padding: 8px;
+background-color: palevioletred;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+div {
+  display: block;
+}
+
+button {
+  color: white;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: blueviolet;
+  padding: 8px;
+  margin-top: 3%;
+}
+
+p {
+  color: black;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Large', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: black;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Medium', Arial, sans-serif;
+}
+h4 {
+  text-align: center;
+  margin:auto;
+  color: black;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Medium', Arial, sans-serif;
+}
+
+h5 {
+  color: black;
+  margin:auto;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Medium', Arial, sans-serif;
+}   
+
+.iconify {
+   font-size: 24px;
+   text-align: center;
+   display: flex;
+   margin: auto;
+}
+/* Header */
+header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: white, solid;
+}
+/*Nav Section*/
+.nav_link {
+  font-family: 'Franklin Gothic Medium';
+  color:blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+   color: palevioletred;
+}
+.nav__menu li {
+  display: inline-block;
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 20px;
+}
+
+nav {
+  max-width: 1500px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px 10px;
+}
+
+.contact_link {
+  color: hotpink;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* About Us Section (Top) */
+.about__section {
+  background-image: url('./background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.top__title {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  color: palevioletred;
+  font-size: 50px;
+  background-color: rgb(45, 43, 85);
+}
+
+@media screen (min-width: 768px) {
+.about__description {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: var(--mb-2-5);
+  margin-top: 20px;
+}
+}
+
+.about__description {
+  color: white;
+  text-align: center;
+  display:flex;
+  margin-bottom: 10px;
+  background-color: rgb(45, 43, 85);
+}
+
+.about__section button {
+text-align: center;
+margin: auto;
+display: flex;
+}
+
+/* About Us section (middle) */
+@media screen and (min-width: 768px) {
+.about__img {
+  width: 350px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.about__description {
+  text-align: initial;
+  justify-content: center;
+  margin-bottom: var(--mb-2-5);
+  margin-top: 20px;
+}
+}
+
+.about__data {
+  background-color: rgb(218, 160, 218);
+}
+
+
+/* Resources Section */
+.useful_resources_section {
+      background-color: rgb(218, 160, 218);
+}
+.column {
+  display: inline-table;
+  text-align:center;
+  background-color: white;
+  border: 1px black;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  padding-top: 50px;
+  padding-right:15px;
+  padding-bottom: 50px;
+  padding-left: 27px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+      width: 350px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+    .row {
+       flex-wrap:wrap;
+    }
+}    
+
+/* Ending Section */
+table, th, td{
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 8px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer-menu li {
+    display: block;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#footer-menu {
+  max-width: 1500px;
+  justify-content: space-between;
+}
+
+.footer_link  {
+  text-decoration: none;
+  color: blueviolet;
+}
